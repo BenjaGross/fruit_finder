@@ -7,8 +7,7 @@ describe FruitFinder do
 
   it 'returns a string not equal to the input' do
     test_query = "apple"
-    response = find_fruit(test_query)
-    expect(response).not_to eq(test_query)
+    expect(find_fruit(test_query)).not_to eq(test_query)
   end
 
   it 'does something useful' do
