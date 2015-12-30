@@ -2,6 +2,7 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fruit_finder/version'
+require 'fruit_finder/fruit_dictionary'
 
 Gem::Specification.new do |spec|
   spec.name          = "fruit_finder"

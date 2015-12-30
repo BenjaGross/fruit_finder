@@ -1,9 +1,18 @@
 require "fruit_finder/version"
 
-module FruitFinder
-  # Your code goes here...
+class FruitFinder
+  extend FruitFinderVersion
+  include FruitDictionary
+  
   def find_fruit(fruit)
     # Nothing Yet
+  end
+  
+
+
+
+  def self.version
+    FruitFinderVersion::VERSION 
   end
 
 end
