@@ -5,11 +5,13 @@ class FruitFinder
   include FruitDictionary
   
   def find_fruit(fruit)
-    # Nothing Yet
+    binding.pry
   end
   
 
-
+  def dictionary
+    FruitDictionary::FRUIT_DICTIONARY
+  end
 
   def self.version
     FruitFinderVersion::VERSION 
