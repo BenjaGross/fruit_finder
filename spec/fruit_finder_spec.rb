@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe FruitFinder do
+  
   it 'has a version number' do
     expect(FruitFinder.version).not_to be nil
   end
